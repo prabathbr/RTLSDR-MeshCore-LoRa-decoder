@@ -129,7 +129,7 @@ python -c "import numpy, scipy, rtlsdr, cryptography; print('ok')"
 `pyrtlsdr` needs `librtlsdr.dll` on `PATH`.
 
 1. Download [rtlsdr-bin-w64_static.zip](https://github.com/librtlsdr/librtlsdr/releases/download/v0.9.0/rtlsdr-bin-w64_static.zip).
-2. Extract `rtlsdr.dll` → rename/copy to:
+2. Extract `librtlsdr.dll` → copy to:
 
    ```
    bin\librtlsdr.dll
