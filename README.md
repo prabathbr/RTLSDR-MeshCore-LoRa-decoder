@@ -440,10 +440,11 @@ invoke_build.cmd
 ## Credits and licenses
 
 This project combines several upstream works. Please respect their licenses and attribution when redistributing.
+All other code in this repo is under [GPL-2.0+]
 
 ### LoRa PHY demodulator — lorarx
 
-- **Author:** OE5DXL
+- **Author:** Christian Rabler (OE5DXL) dxlAPRS under [GPL-2.0+](http://oe5dxl.hamspirit.at:8025/aprs/c/Licenses/README)
 - **Site:** [oe5dxl.hamspirit.at](http://oe5dxl.hamspirit.at:8025/)
 - **What we use:** `lorarx` C sources in `src/lorarx-src/` (LoRa chirp demod, JSON output, `decodemeshcore()` in `loraprotocols.c`)
 - **Windows port:** `port_win.c`, `build_lorarx.bat`, `invoke_build.cmd` in this repo
