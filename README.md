@@ -57,7 +57,7 @@ final/                        ← you are here (copy/share this whole folder)
 |------|---------|
 | **Windows 10/11** | Target platform |
 | **Miniconda or Anaconda** | Python 3.11 env |
-| **Visual Studio 2019** (x64) | Build `lorarx.exe` once |
+| **Visual Studio 2019** (x64) | Build `lorarx.exe` once (not required when using the included binary) |
 | **Zadig + WinUSB** | RTL-SDR USB driver |
 | **NESDR / RTL-SDR** | 915 MHz capable dongle |
 
