@@ -1,0 +1,11 @@
+# MeshCore channel keys: HASH:32-hex-char-key
+# Hash = SHA256(key)[0]  (first byte, hex)
+# Copy to channels.txt and add your keys (channels.txt is not committed).
+
+# Private / custom channel
+
+
+# Public channel
+# 11:8b3387e9c5cdea6ac9e5edbaa115cd72
+
+# Hashtag-style channels use SHA256("#name")[:16] as the 32-hex key instead.

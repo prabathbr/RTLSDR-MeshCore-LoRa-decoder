@@ -1,0 +1,12 @@
+name: meshcore-decode
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.11
+  - pip
+  - pip:
+    - pyrtlsdr>=0.2.93
+    - cryptography>=41.0

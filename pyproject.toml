@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshcore-decode"
+version = "0.1.0"
+description = "RTLSDR MeshCore LoRa decoder"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.20",
+    "pyrtlsdr>=0.2.93",
+    "cryptography>=41.0",
+    "scipy>=1.11",
+]
+
+[project.scripts]
+meshcore-decode = "meshcore_win:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = [
+    "meshcore_win",
+    "meshcore_common",
+    "meshcore_packet",
+    "meshcore_crypto",
+]

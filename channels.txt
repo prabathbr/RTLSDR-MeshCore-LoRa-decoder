@@ -1,0 +1,3 @@
+# MeshCore channel keys: HASH:32-hex-char-key
+# Hash must match SHA256(key)[0] 
+11:8b3387e9c5cdea6ac9e5edbaa115cd72
