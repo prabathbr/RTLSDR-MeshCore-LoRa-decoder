@@ -440,7 +440,7 @@ invoke_build.cmd
 ## Credits and licenses
 
 This project combines several upstream works. Please respect their licenses and attribution when redistributing.
-All other code in this repo is under [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](LICENSE)
+All other code in this repo is under GPL v2 [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](LICENSE)
 
 ### LoRa PHY demodulator — lorarx
 
