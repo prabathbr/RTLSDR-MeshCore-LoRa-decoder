@@ -29,7 +29,6 @@ meshcore.bat --gain 40 --ppm -15 -o captures.json -v
 ## Project layout
 
 ```
-final/                        ← you are here (copy/share this whole folder)
 ├── README.md                 This file
 ├── requirements.txt          pip dependencies
 ├── environment.yml           conda environment spec
